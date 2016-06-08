@@ -1,0 +1,253 @@
+#page {
+    background: url(../images/background.jpg) fixed top center no-repeat;
+    margin: 0 auto;
+    width: 950px;        
+}
+
+body {
+    margin: 0;
+    background-color: #000;   
+}
+
+/* Header */
+
+#header {
+    background-color: #050505;
+    height: 45px;
+    padding-left: 30px;    
+}
+
+#header a {
+    color: #EDEDC4;    
+    float: left; /*горизонтально слева*/
+    font: 12pt cursive;
+    line-height: 45px;
+    padding: 0 10px;
+	transition: color .5s ease; /*плавный переход*/
+}
+    
+#header a:hover {
+    color: #A3956D;
+}
+
+/* Name */
+
+#name  {
+    height: 345px;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+#name h2 {
+    color: #A3956D;
+    font: 50pt Arial, sans-serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+em {
+    color:#fff; 
+    font: 15pt Segoe UI Light, sans-serif;
+    margin-left: 5px;
+}
+
+/* Content */
+
+#content {
+    color:#fff;
+    font: 12pt Segoe UI Light, sans-serif;
+    padding-bottom: 50px;
+}
+
+#text,
+#din_text {
+    background-color: rgba(0,0,0,.8);
+    color: #d0d0d0;
+    font-size: 14pt;
+    margin: 30px;
+    padding: 30px 30px;
+    text-align: justify;    
+}
+
+#text a {
+    color: #A3956D;
+}
+
+/* Widgets */
+
+#vkontakte {
+    float: right;
+    height: 400px;    
+    margin-right: 50px;
+    width: 250px;
+}
+
+/* Footer */
+
+#footer {
+    background-color:#000;
+    clear: both;
+    color: #EDEDC4;
+    font-size: 10pt;
+    padding-left: 40px;    
+}
+
+/* Up */
+
+#up {
+    background: url(../images/up.png) rgba(235,235,235,.5);
+    border-radius: 100%;
+    bottom: 20px;
+    cursor: pointer;
+    height: 40px;
+    opacity: .5;
+    position: fixed;
+    right: 25px;
+    transition: background .5s ease; 
+    width: 40px;   
+}
+
+#up:hover {     
+    background: url(../images/up.png) rgba(85,85,85,.5);
+    opacity: 1; 
+}
+
+/* Images */
+
+img.left {
+    float: left;
+    max-width: 400px;
+    padding-right: 15px;
+}
+
+img.right,
+img.img_types {
+    float: right;
+    max-height: 400px;
+    padding-left: 15px;
+}
+
+img.img_types {
+    max-width: 470px;
+    margin-top:30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.center img {
+	max-height: 170px;
+	margin-bottom: -10px;
+}
+
+/* Musician's blocks */
+
+.music  {
+    background-color:rgba(255,255,255,.8);
+    color: #000;
+    float: left;
+    height: 455px;
+    margin: 10px; 
+    padding: 10px;
+    width: 270px;  
+}
+
+.music h4  {
+    font-size: 19pt;
+    text-align: center;    
+}
+
+.music img  {
+    display: block;
+    margin: 0 auto;
+    max-height:200px;
+}
+
+.music p  {
+    text-align:center;
+}
+
+.music a  {
+    color: #000;
+}
+
+/* Galery */
+
+#galery {
+    margin: 0 auto;
+    width: 826px;
+}
+
+.image {
+    border: 1px solid #A3956D;
+    height: 200px;
+    width: 200px;
+    
+}
+ 
+/* Blocks in  */
+
+.block_one,
+.block_two {    
+    font-family: Segoe UI Light,sans-serif;
+    height: 204px;    
+    line-height: .9em;
+    padding: 24px;
+    width: 480px;
+    margin-left: 30px;
+}
+
+.block_one {
+    background-color:rgba(0,0,0,.8);
+}
+
+.block_two {   
+    background-color:rgba(255,255,255,.8);
+    color:#000;     
+}
+
+.block_one a {
+    color:#fff;    
+    line-height: normal;
+}
+
+.block_two a {
+    color:#000;
+    line-height: normal;
+}
+
+/* H */
+
+h5 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+}
+
+h4 {
+    font-size: 28px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Linls */
+
+a {
+	display: block;
+	text-decoration: none;
+}
+
+/* Lines */
+
+.line,
+.line_in_block {
+    margin: 15px auto;
+    width: 37px;
+    border: 1px solid #A3956D;
+}
+
+.line_in_block {
+    margin: 15px 0;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Классификация</title>
+		<script src = "../scripts/script.js"></script>
+        <link rel="stylesheet" href="../css/styles.css"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">	       
+	</head>
+	
+<body>
+    <div id="page">
+    <!-- Header -->
+        <div id="header" >
+            <a href="../index.html">главная</a>
+            <a href="galery.html">галерея</a>
+            <a href="history.html">история</a>
+            <a href="musicians.html">лучшие музыканты</a>
+            <a href="types.html" style="color:#CE912C;">классификация</a>     
+        </div>
+        <!--Name-->
+        <div id="name">
+                <h2>классификация</h2>
+            </div>
+        <!--Content-->
+        <div id="content"> 
+            <div id="text">
+                <img src="../images/types.jpg" class = "img_types"/>
+            Гитары классифицируются на три вида:
+            <ol>
+                <li id><a href ="#din_text" onclick = "content1();">Электрогитары</a></li>
+                    <ul>
+                        <li>Бас-гитары</li>
+                            <ul>
+					<li>6-струнные</li>
+                                <li>5-струнные</li>
+                                <li>4-струнные</li>
+					<li>Безладовая</li>
+                            </ul>
+                        <li>Бесструнные</li>
+                        <li>Классическая электро-гитара</li>
+                    </ul>
+                <li><a href ="#din_text" onclick = "content2();">Акустические гитары</a></li>
+                    <ul>
+                        <li>Классика</li>
+				<ul>
+					<li>6-струнные</li>
+					<li>7-струнные</li>
+				</ul>
+                        <li>Вестерн</li>
+				<ul>
+					<li>6-струнные</li>
+				</ul>
+                    </ul>
+                <li><a href ="#din_text" onclick = "content3();">Электро-акустические гитары</a></li>
+            </ol>
+            </div>
+            <div id="din_text"></div>                       
+        </div>
+        <!--Footer-->
+        <div id="footer">© Капитоненко Виктория, СПбГУТ</div>            
+        <div><a href="#" id="up" onclick="return up()"></a></div>
+    </div>
+</body>
+</html>
