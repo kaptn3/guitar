@@ -76,7 +76,18 @@ em {
 .head {
   margin-left: 140px;
   margin-bottom: 40px;
+  color: black;
 }
+
+label {
+  color:black;
+}
+
+.jumbotron {
+  margin: 40px;
+}
+
+
 
 /* Widgets */
 
