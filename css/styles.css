@@ -73,6 +73,11 @@ em {
     color: #A3956D;
 }
 
+.head {
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+
 /* Widgets */
 
 #vkontakte {
